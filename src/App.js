@@ -1,7 +1,9 @@
+import UseRefExample1 from './components/UseRefExample1';
+
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>Learn React</header>
+    <div className='container mt-5'>
+      <UseRefExample1 />
     </div>
   );
 }
