@@ -1,5 +1,8 @@
+// UseMemo returns a memoization value 
 // memoization is an optimization technique that speeds up performance by storing or cashing the results of an expensive function call when the same input occur when it has the same arguments
 // expensive function call like - a function that takes a lot of resources and takes a while to execute/complete. like searching through thousands of records in a database or you're doing something with video processing.
+
+
 import {useState, useEffect, useRef, useMemo} from 'react'
 
 function UseMemoExample() {
